@@ -1,25 +1,34 @@
-NB: This is a template to make documentation process easy. You can remove the `To-Do` notes in your final commit
+# Analyze Supermarket Data Across the Country - Company XYZ
 
-# Project Title Here
+This data analysis project was done on **Company XYZ**'s data. The company owns three branches in the major cities across the country.
 
-To-Do - Write a short project description here.
+Each of the three branches recorded sales information for 3 months in the hope that this data would be analyzed to help the company understand sales trends and determine its growth, as the rise of supermarkets competition is seen to increase.
+
+In this project, I have analyzed the recorded data to help the company make guided decisions.
 
 # Project Steps
 
-To-Do - Explain in detail, the project steps and overview of different tasks completed here.
+I took the following steps in analyzing the recorded data:
 
-# Insights
+## Load Datasets
 
-To-Do - Explain the insights you were able to uncover from the analysing the datasets.
+1. I read the location and name of each CSV file into my work environment.
+2. I combined the datasets into a single CSV.
+3. I loaded the concatenated CSV files into a Pandas dataframe.
 
-# Future Work
+## Data Exploration
 
-To-Do - Suggest tasks you might include in future work to make this project more robust.
+Here I familiarized myself with the data and tried to find useful insights by:
 
-# Standout Section
+1. checking the number of rows in the loaded dataframe
+2. getting the descriptive statistics of the loaded dataframe
+3. checking for missing values
+4. printing out the datatype of each row in the dataframe
+5. analyzing datetime colmns
+6. grouping and aggregating rows in the dataframe
 
-To-Do - Explain what you did differently in the project following the instructions in the notebook.
+## Visualization and Communication
 
-# Executive Summary.
+Visualization helps to get more familiar with the data as well as communicate findings to stakeholders. 
 
-To-Do - Include your Executive Summary document in your repository.
+I used various types of charts to visualize the loaded dataframe including; box plots, categorical plots, line graphs and different forms of bar charts.
